@@ -32,6 +32,9 @@ body {
   line-height: 1.5;
   width: 100%;
 }
+.-serif {
+  font-family: "Times New Roman", 游明朝体, "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
 @media (max-width: 768.98px) {
   body, html {
     width: 100%;
@@ -578,6 +581,9 @@ a :hover {
 #footer .con_logo .logo {
   margin: 0 auto;
 }
+#footer .con_logo a {
+  font-size: 1.5rem;
+}
 
 #footer .con_logo address {
   font-size: 1.2rem;
@@ -595,6 +601,7 @@ a :hover {
 .wrp_tel a {
   color: #222222;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 #footer .con_nav {
@@ -625,6 +632,7 @@ a :hover {
   font-size: 122%;
   font-style: italic;
   letter-spacing: .1em;
+  padding-right: 10px;
 }
 #footer #copyright {
   text-align: center;
@@ -634,8 +642,12 @@ a :hover {
   letter-spacing: .05em;
   padding: 0 0 1em;
 }
-ul {
+.wrp_sns ul {
+  display: flex;
   padding-left: 0; 
+}
+.wrp_sns ul li {
+  padding: 0 10px;
 }
 .box_nav {
   display: flex;
@@ -797,11 +809,70 @@ ul {
   .box {
     display: block;
   }
-    
+}
+//////////////////////// 内湯 ////////////////////////////
+.content-hinoki h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+#hinoki .contentwrapper {
+  padding: 0;  
+}
+//*---------------------onsen.html---------------------------*//
+
+//*---------------------ryouri.html---------------------------*//
 
 
+//*---------------------oheya.html---------------------------*//
+#mainbox-oheya {
+  margin: 0 auto;
+  width: 870px;
+  margin-bottom: 60px;
+}
+#mainbox-oheya .oheya {
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  margin: 0 auto 20px;
+  line-height: 1.8;
+}
+#mainbox-oheya .oheya .tit {
+  font-weight: bold;
+  font-size: 18px;
+}
+.oheya a {
+  color: #333;
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  float: none;
+  clear: both;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+table tbody tr *:first-child {
+  padding-left: 0;
+}
+table tbody tr th {
+  min-width: 120px;
+  width: 16.66%;
+}
+table tbody tr * {
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
 }
 
+@media (max-width: 768.98px) {
+  #access iframe {
+    width: 100%;
+    height: auto;
+    
+  }
+
+}
 
 
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
