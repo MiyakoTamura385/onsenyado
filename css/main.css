@@ -7789,7 +7789,10 @@ body {
   body, html {
     width: 100%;
     min-width: auto;
-    max-width: 100%; } }
+    max-width: 100%; }
+  .-serif {
+    width: 100%;
+    padding: 0 30px; } }
 
 /*========= 上部固定させるためのCSS ===============*/
 #header {
@@ -8437,7 +8440,8 @@ a :hover {
   .c-article p {
     letter-spacing: 0.2em;
     line-height: 2.2em;
-    font-size: 1rem; }
+    font-size: 1rem;
+    margin: 0 20px; }
   .box {
     display: block; } }
 
@@ -8487,6 +8491,15 @@ table tbody tr * {
   text-align: left;
   vertical-align: top;
   font-weight: normal; }
+
+#oheya .lazyload {
+  height: 342px; }
+
+@media (max-width: 768.98px) {
+  #mainbox-oheya {
+    max-width: 100%; }
+  #mainbox-oheya .oheya {
+    padding: 20px; } }
 
 @media (max-width: 768.98px) {
   #access iframe {

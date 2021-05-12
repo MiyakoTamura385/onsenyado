@@ -41,6 +41,10 @@ body {
     min-width: auto;
     max-width: 100%;
   }
+  .-serif {
+    width: 100%;
+    padding: 0 30px;
+  }
 }
 /////////固定ナビ///////////////////////////////
 /*========= 上部固定させるためのCSS ===============*/
@@ -526,8 +530,6 @@ a :hover {
   min-height: 300px;
   object-fit: cover;
 }
-
-
 @media (max-width: 768.98px) {
   .content {
     padding: 60px 20px;
@@ -805,6 +807,7 @@ a :hover {
     letter-spacing: 0.2em;
     line-height: 2.2em;
     font-size: 1rem;
+    margin: 0 20px;
   }
   .box {
     display: block;
@@ -821,7 +824,6 @@ a :hover {
 //*---------------------onsen.html---------------------------*//
 
 //*---------------------ryouri.html---------------------------*//
-
 
 //*---------------------oheya.html---------------------------*//
 #mainbox-oheya {
@@ -864,14 +866,23 @@ table tbody tr * {
   vertical-align: top;
   font-weight: normal;
 }
-
+#oheya .lazyload {
+  height: 342px;
+}
+@media (max-width: 768.98px) {
+  #mainbox-oheya {
+    max-width: 100%;
+  }
+  #mainbox-oheya .oheya {
+    padding: 20px;
+  }
+}
+//*---------------------access.html---------------------------*//
 @media (max-width: 768.98px) {
   #access iframe {
     width: 100%;
-    height: auto;
-    
+    height: auto;    
   }
-
 }
 
 
