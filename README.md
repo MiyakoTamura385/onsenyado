@@ -1,1 +1,1 @@
-# onsenyado
+Osushi site resources.
